@@ -6,9 +6,9 @@ import java.awt.event.ActionListener;
 
 public class ClearButtonListener implements ActionListener
 {
-    JTextField inputArrayListField1;
-    JTextField inputArrayListField2;
-    JTextField outputResultField;
+    private JTextField inputArrayListField1;
+    private JTextField inputArrayListField2;
+    private JTextField outputResultField;
 
 
     public ClearButtonListener(JTextField inputArrayListField1, JTextField inputArrayListField2, JTextField outputResultField)
@@ -16,8 +16,6 @@ public class ClearButtonListener implements ActionListener
         this.inputArrayListField1 = inputArrayListField1;
         this.inputArrayListField2 = inputArrayListField2;
         this.outputResultField = outputResultField;
-
-
     }
 
     @Override

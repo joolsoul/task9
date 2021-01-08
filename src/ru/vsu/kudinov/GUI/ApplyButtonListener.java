@@ -9,16 +9,15 @@ import java.util.List;
 
 public class ApplyButtonListener implements ActionListener
 {
-    JTextField inputListField1;
-    JTextField inputListField2;
-    JTextField outputResultField;
+    private JTextField inputListField1;
+    private JTextField inputListField2;
+    private JTextField outputResultField;
 
     public ApplyButtonListener(JTextField inputListField1, JTextField inputListField2, JTextField outputResultField)
     {
         this.inputListField1 = inputListField1;
         this.inputListField2 = inputListField2;
         this.outputResultField = outputResultField;
-
     }
 
     @Override
